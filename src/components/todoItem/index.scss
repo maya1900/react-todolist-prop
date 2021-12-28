@@ -1,0 +1,19 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  line-height: .44rem;
+  border-bottom: 1px solid #ddd;
+  padding: 0 .15rem;
+  .content {
+    font-size: .14rem;
+    font-weight: bold;
+    margin: 0 .1rem;
+    width: 48%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .btn-group {
+    display: flex;
+  }
+}
